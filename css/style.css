@@ -7,66 +7,44 @@
 }
 
 body {
-    background-color: #fff;
+    font-family: 'Lato', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    padding-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+/* --------Navbar--------- */
+.navbar {
+    background-color: #333;
     color: #fff;
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    font-size: 10px;
+    overflow: auto;
 }
-
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1552858725-2758b5fb1286?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
-    height: 95vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    font-size: 2em;
+.navbar a {
+    color: #fff;
 }
-
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    /* vertical-align: middle; */
-}
-
 .logo {
     float: left;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(22, 21, 21);
+    padding-top: 20px;
 }
 .main-nav {
     list-style: none;
     float: right;
 }
 .main-nav li {
-display: inline-block;
+    float: left;
+}.main-nav li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
 }
-
-.main-nav li a {
-    color: #fff;
-    text-decoration: none;
-}
-.main-nav .home {
-    color: rgb(187, 123, 39);
-}
-/* ------reusable content--- */
-span {
-    color: rgb(187, 123, 39);
-}
-/* ------buttons------- */
-.btn {
-    background-color: black;
-    color: #fff;
-    text-decoration: none;
-}
+.main-nav li a
