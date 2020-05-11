@@ -9,32 +9,46 @@
     <script src="https://kit.fontawesome.com/b54a92c67f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Hotel BT | About</title>
+    <title>Hotel BT | Contact</title>
 </head>
+<nav class="navbar">
+    <div class="container">
+        <div>
+            <h1><a href="index.html" class="logo">HBT</a></h1>
+            <ul class="main-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href='contact.html' class="current">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="contact-form m30">
+    <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+        <p>Please Fill out the form below to contact us</p>
+        <form action="process.php">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <textarea type="text" name="message" id="message"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit"class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</section>
 
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <div>
-                <h1><a href="index.html" class="logo">HBT</a></h1>
-                <ul class="main-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href='contact.html' class="current">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <section class="section-about bg-light">
-        <div class="about-content">
-            <h2 class="m10"><span class="text-primary">About</span> Hotel BT</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, esse. Enim commodi ipsam nam, dolorem fuga
-                natus error quas veniam harum sequi deserunt est nisi inventore perferendis consequatur libero officiis
-                corrupti, deleniti animi illo expedita eligendi obcaecati vero quam! Deleniti.
-            </p>
-        </div>
-        <div class="about-img"></div>
-    </section>
     <footer class="main-footer">
         <p>Hotel BT | &copy; 2020, All Rights Reserved.</p>
     </footer>
