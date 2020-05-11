@@ -11,47 +11,66 @@
 
     <title>Hotel BT | Contact</title>
 </head>
-<nav class="navbar">
-    <div class="container">
-        <div>
-            <h1><a href="index.html" class="logo">HBT</a></h1>
-            <ul class="main-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href='contact.html' class="current">Contact</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<section class="contact-form m30">
-    <div class="container">
-        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
-        <p>Please Fill out the form below to contact us</p>
-        <form action="process.php">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name">
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-            </div>
-            <div class="form-group">
-                <label for="name">Name</label>
-                <textarea type="text" name="message" id="message"></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit"class="btn">Submit</button>
-            </div>
-        </form>
-    </div>
-
-</section>
 
 <body>
+    <nav class="navbar">
+        <div class="container">
+            <div>
+                <h1><a href="index.html" class="logo">HBT</a></h1>
+                <ul class="main-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href='contact.html' class="current">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="contact-form m30">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p>Please Fill out the form below to contact us</p>
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="text" name="message" id="message"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="contact-info bg-dark">
+        <div class="container bg-dark">
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>Location</h3>
+                <p>50 Main st, Boston MA</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Phone Number</h3>
+                <p>(555)555-5555</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email</h3>
+                <p>Your@name.com</p>
+            </div>
+        </div>
+    </section>
     <footer class="main-footer">
         <p>Hotel BT | &copy; 2020, All Rights Reserved.</p>
     </footer>
 </body>
+
 
 </html>
